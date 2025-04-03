@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula while</title>
+</head>
+<body>
+     <center>
+     <h1>AULA WHILE</h1>
+
+    <script>
+        while(true) {
+        var usuario = prompt("Digite seu usuário")
+        var senha = parseInt(prompt("Digite sua senha"))
+
+        if(usuario == "bruno" && senha == "1234") {
+            window.location.href = "/page.html" 
+            break; 
+        }else {
+            alert("Usuário/senha incorretos! Tente novamente")
+        }
+    }
+    </script>
+    
+     </center>
+</body>
+</html>
